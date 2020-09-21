@@ -44,7 +44,7 @@ int main(){
 		for (auto word : words)
 			cout << word << string(": ") << boolalpha << isUniqueChars_bitvector(word) << endl;
 		for (auto word : words)
-			cout << word << string(": ") << boolalpha << isUniqueChars_bitvector(word) << endl;
+			cout << word << string(": ") << boolalpha << isUniqueChars_noDS(word) << endl;
 
 		return 0;
 }
